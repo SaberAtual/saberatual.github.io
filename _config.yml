@@ -18,4 +18,9 @@ sass:
 gems:
   - jekyll-coffeescript
 
-
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
