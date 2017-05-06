@@ -2,7 +2,6 @@
 title: Fundamentos em Astronomia
 excerpt: >
   O Curso Fundamentos de Astronomia tem o propósito de proporcionar uma visão abrangente dos conhecimentos astronômicos e da evolução da concepção do ser humano acerca do universo, do qual é parte integrante, e ao qual precisa conhecer...
-status: off
 ---
 
 **Por milhares de anos os cientistas vêm observando o Espaço Celeste**, registrando seus estudos em documentos e livros que deram origem às grandes bibliotecas. Assim os Fundamentos de Astronomia vem numa evolução constante culminando nos dias atuais em fatos surpreendentes de nossa origem e evolução.

@@ -2,7 +2,6 @@
 title: Geografia para o Ensino Médio
 excerpt: >
   A mudança começa por mim mesmo que, como motor e reflexo, crio o futuro no presente e o coletivo no pessoal em processo dialético.  “A pureza desse futuro reluz na pureza dos meios imediatos escolhidos para realizá-lo aqui e agora.”
-status: off
 ---
 
 > A mudança começa por mim mesmo que, como motor e reflexo, crio o futuro no presente e o coletivo no pessoal em processo dialético. “A pureza desse futuro reluz na pureza dos meios imediatos escolhidos para realizá-lo aqui e agora.

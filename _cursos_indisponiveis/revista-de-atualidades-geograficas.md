@@ -2,12 +2,16 @@
 title: Revista geográfica
 excerpt: >
   Revista de Atualidades Geográficas.
-status: off
 ---
 
-## A Revista Geográfica Saber Atual é uma criação do professor Claudio Peppe, geógrafo formado pela PUC/SP
-
-<img src="https://c2.staticflickr.com/4/3767/33541463311_963663a437_m.jpg">
+<div class="hero light">
+  <div data-grid="center spacing" class="wrapper">
+    <div data-cell="1of3"><img src="https://c2.staticflickr.com/4/3767/33541463311_963663a437_m.jpg"></div>
+    <div data-cell="2of3">
+      <p>A Revista Geográfica Saber Atual é uma criação do professor Claudio Peppe, geógrafo formado pela PUC/SP</p>
+    </div>
+  </div>
+</div>
 
 A finalidade da Revista é compartilhar o conhecimento de décadas como professor de geografia, com mais de 80 mil horas/aula em ensino médio e curso pré-vestibular, oferecendo aos futuros alunos de EaD ferramentas para a construção do conhecimento, e assim, contribuindo com a formação do saber do estudante.
 

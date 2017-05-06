@@ -21,31 +21,50 @@ O Curso de Educação Financeira, visa formar uma base de conhecimentos, necess�
 
 Recomendamos o ensino do Mercado Financeiro para o primeiro ano do ensino médio, dando continuidade ao aprendizado do nono ano. Para o segundo ano, reservamos o aprendizado do mercado através da análise fundamentalista e análise gráfica.
 
-## Parte prática
-
-<img src="http://f.i.uol.com.br/folha/mercado/images/14016421.jpeg">
-
-Através de simuladores existentes na internet, o aluno começa a ter contato com a realidade e podendo por em prática o seu aprendizado, sem o risco de expor seu capital.
-
-## Desenvolvimento
-
 O curso é desenvolvido através de um "Livro Vivo", onde cada assunto do livro é explicado em vídeo aula, seguido de exercícios de fixação de conceitos.
-
-## Composição
 
 O curso será composto por: videoaulas inéditas, "Livro Vivo" em PDF, acesso a questões e simulados online.
 
-## Matemática Financeira
+### Parte prática
 
-<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSN2VdT41li-V_OAcLDiwihJDPGQ6BYwpBdGAhGqFrTLlJ6vFA9">
+<div data-grid="center spacing" class="wrapper">
+  <div data-cell="1of3">
+    <img src="http://f.i.uol.com.br/folha/mercado/images/14016421.jpeg">
+  </div>
+  <div data-cell="2of3">
+    <p>Através de simuladores existentes na internet, o aluno começa a ter contato com a realidade e podendo por em prática o seu aprendizado, sem o risco de expor seu capital.</p>
+  </div>
+</div>
 
-Para o nono ano, o aluno viverá situações reais do mercado financeiro utilizando-se de conceitos matemáticos de juros simples e compostos e o conceito de lucro e prejuízo
+### Matemática Financeira
 
-Para o ensino médio, o aluno receberá uma planilha simulando compra e venda de ações, ou commodities.
+<div data-grid="center spacing" class="wrapper">
+  <div data-cell="1of3">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSN2VdT41li-V_OAcLDiwihJDPGQ6BYwpBdGAhGqFrTLlJ6vFA9">
+  </div>
+  <div data-cell="2of3">
+    <p>Para o nono ano, o aluno viverá situações reais do mercado financeiro utilizando-se de conceitos matemáticos de juros simples e compostos e o conceito de lucro e prejuízo.</p>
+    <p>Para o ensino médio, o aluno receberá uma planilha simulando compra e venda de ações, ou commodities.</p>
+  </div>
+</div>
 
-## Nossa Revista
+### Nossa Revista
 
 A Revista de Educação Financeira do Saber Atual é uma coleção de fatos atuais, relacionados ao aprendizado.
+
+<div class="hero brand">
+  <div class="wrapper">
+
+    <h3>Visita à BM&FBOVESPA</h3>
+
+    <p>Parceria com a Bovespa: O curso inclui como opcional, uma visita à BOVESPA, com duas horas de palestra e ainda o aluno poderá vivenciar o mercado em andamento, e em tempo real.</p>
+
+    <p>Conheça a história da BOVESPA:</p>
+
+    {% include youtube.html id = "OSRmV3Xcjes" %}
+
+  </div>
+</div>
 
 ## Informações importantes do Curso
 
@@ -56,11 +75,3 @@ Após a disponibilização da aula, o aluno poderá assisti-la quantas vezes des
 Recomenda-se o uso de conexão banda larga de 1Mbps ou superior.
 
 Após a celebração do contrato com a escola, o Saber Atual irá disponibilizar senha e login a ser distribuído aos alunos.
-
-## Visita a BM&FBOVESPA
-
-**Parceria com a Bovespa:** O curso inclui como opcional, uma visita a BOVESPA, com duas horas de palestra e ainda o aluno poderá vivenciar o mercado em andamento, e em tempo real.
-
-### Conheça a história da BOVESPA
-
-youtube: OSRmV3Xcjes

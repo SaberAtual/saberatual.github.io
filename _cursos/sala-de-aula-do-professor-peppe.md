@@ -4,12 +4,20 @@ excerpt: >
   Esta categoria tem por finalidade orientar os estudos de geografia dos alunos do Ensino Médio e Cursinho Pré-Vestibular..ENEM, Vestibulares, Concursos Públicos.
 ---
 
-<img src="https://c1.staticflickr.com/3/2884/33295482020_3f5058e2c3_q.jpg">
-
-**Apenas R$1,00/aluno/mês**
-
-\* Mínimo de duzentos alunos
-\* Somente para escolas cadastradas
+<div class="wrapper" data-grid="center spacing">
+  <div data-cell="1of2">
+    <img src="https://c1.staticflickr.com/3/2884/33295482020_3f5058e2c3_q.jpg">
+  </div>
+  <div data-cell="1of2">
+    <p><strong>Apenas R$1,00/aluno/mês</strong></p>
+    <p>
+      <small>
+        * Mínimo de duzentos alunos<br>
+        * Somente para escolas cadastradas
+      </small>
+    </p>
+  </div>
+</div>
 
 ## Descomplique a Geografia!
 
@@ -31,12 +39,11 @@ Nesta categoria de Orientação de Estudos, você encontrará:
 
 ## Mapas Temáticos comentados
 
-<img src="https://c2.staticflickr.com/2/1575/24576989063_205e7d32b8_n.jpg">
-
-<img src="https://c2.staticflickr.com/4/3895/32729042022_f511f10c85_n.jpg">
-
-<img src="https://c1.staticflickr.com/3/2325/32828067556_1d5febb15a_n.jpg">
-
-<img src=https://c1.staticflickr.com/3/2479/32026406044_5ac996ed2e_n.jpg">
+<div data-grid="center around spacing" class="hero light">
+  <div data-cell=""><img src="https://c2.staticflickr.com/2/1575/24576989063_205e7d32b8_n.jpg"></div>
+  <div data-cell=""><img src="https://c2.staticflickr.com/4/3895/32729042022_f511f10c85_n.jpg"></div>
+  <div data-cell=""><img src="https://c1.staticflickr.com/3/2325/32828067556_1d5febb15a_n.jpg"></div>
+  <div data-cell=""><img src="https://c1.staticflickr.com/3/2479/32026406044_5ac996ed2e_n.jpg"></div>
+</div>
 
 <img src="https://c2.staticflickr.com/2/1500/25264496261_73b94e5fdd_z.jpg">
