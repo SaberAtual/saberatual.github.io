@@ -2,35 +2,52 @@
 layout: default
 ---
 
-<div class="page-content">
-
-  {% for curso in site.cursos %}
-    <article class="wrapper">
-      <h3><a href="{{ site.baseurl }}{{ curso.url }}">{{ curso.title }}</a></h3>
-      <p>{{ curso.excerpt }}</p>
-    </article>
-  {% endfor %}
-
-</div>
-
-<div class="page-content">
-  <div class="wrapper">
-
-    <h1 class="page-heading">Comece a estudar</h1>
-  
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-  
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
+<section class="page-content">
+  <div class="wrapper" data-grid="center">
+    <div data-cell="3of4">
+      <h1>Saber Atual</h1>
+      <h2 class="page-heading">Compromisso com o ensino brasileiro</h2>
+      {% for page in site.pages %}
+        {% if page.menu-title == "Sobre" %}
+          <p>{{ page.excerpt }}</p>
+          <p><a href="{{ site.baseurl }}{{ page.url }}">Saiba mais sobre o Saber Atual</a></p>
+        {% endif %}
       {% endfor %}
-    </ul>
-  
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+    <div data-cell="1of4"><img src="/img/scanglobe.png" alt="Globo"></div>
+  </div>
+</section>
+
+<section class="page-content hero brand">
+  <header class="wrapper">
+    <h2>Cursos disponíveis</h2>
+  </header>
+  <div data-grid="spacing" class="wrapper">
+    {% for curso in site.cursos %}
+      <article>
+        <h3><a href="{{ site.baseurl }}{{ curso.url }}">{{ curso.title }}</a></h3>
+        <p>{{ curso.excerpt }} <a href="{{ site.baseurl }}{{ curso.url }}">Leia mais...</a></p>
+      </article>
+    {% endfor %}
+  </div>
+  <footer class="wrapper">
+    <p data-text="center"><a href="#contato" data-btn="">Receba o Saber Atual na sua escola</a></p>
+  </footer>
+</section>
+
+<section class="page-content">
+  <header class="wrapper">
+    <h2>A sala de aula aonde você for</h2>
+  </header>
+
+  <div class="wrapper large">
+    <div data-grid="center spacing">
+      <div data-cell="1of2"><img src="/img/grey-world-map.png" alt="Mapa Mundi"></div>
+      <div data-cell="1of2">
+        <p>Experimente estudar de graça, no computador, tablet ou celular.</p>
+        <p><a href="{{ site.baseurl }}/blog/" data-btn="">Comece a estudar!</a></p>
+      </div>
+    </div>
 
   </div>
-</div>
+</section>

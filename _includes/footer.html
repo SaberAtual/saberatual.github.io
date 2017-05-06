@@ -1,10 +1,22 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="wrapper" data-grid="center spacing">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <div data-cell="1of2">
+      <h2 class="footer-heading">{{ site.title }}</h2>
+      <p>{{ site.description }}</p>
+    </div>
 
-    <p>{{ site.description }}</p>
+    <div data-cell="1of2">
+      <p><a href="{{ site.baseurl }}/">Início</a></p>
+      {% for my_page in site.pages %}
+        {% if my_page.menu-title %}
+          <p><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu-title }}</a></p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div data-cell="shrink"><img src="/img/logo-saberatual-2016-160px.png" alt="Logo Saber Atual"></div>
 
   </div>
 

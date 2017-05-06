@@ -3,11 +3,16 @@ layout: page
 title: Muito prazer, você está no Saber Atual!
 menu-title: Sobre
 permalink: /sobre-nos/
+excerpt: >
+    O Saber Atual foi criado no ano de 2004, com a finalidade de complementar
+    meu trabalho nas salas de aula, agregando valor e favorecendo o estudo do
+    aluno, inclusive fora do ambiente escolar, através de qualquer dispositivo
+    com acesso à internet.
 ---
 
 Olá tudo bem?
 
-Meu nome é Claudio Peppe, sou geógrafo e professor de Geografia formado pela PUC/SP em 1977. Quero ter o prazer de apresentar minha plataforma de informação, educação e cultura, o Saberatual.net
+Meu nome é Claudio Peppe, sou geógrafo e professor de Geografia formado pela PUC/SP em 1977. Quero ter o prazer de apresentar minha plataforma de informação, educação e cultura, o Saberatual.net.
 
 ## Origem
 

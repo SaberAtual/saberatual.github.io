@@ -1,8 +1,16 @@
-.site-header 
-    border-top: 5px solid $grey-color-dark
-    border-bottom: 1px solid $grey-color-light
-    min-height: 56px
+.site-header
+    min-height: 360px
     position: relative
+
+    background:
+        image: url('/img/fundo_topo_original.jpg')
+        repeat: no-repeat
+        size: cover
+    
+    .site-header-inner
+        padding-top: 5px
+        padding-bottom: 5px
+        background-color: $background-color
 
 .site-title 
     font-size: 26px
@@ -12,7 +20,9 @@
     margin-bottom: 0
     float: left
     &, &:visited 
-        color: $grey-color-dark
+        color: $brand-color
+    &:hover, &:focus
+        color: $brand-color
 
 .site-nav 
     float: right
@@ -66,7 +76,7 @@
             margin-left: 20px
 
 .site-footer 
-    border-top: 1px solid $grey-color-light
+    background-color: $grey-color-light
     padding: $spacing-unit 0
 
 .footer-heading 
