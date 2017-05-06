@@ -93,6 +93,31 @@ pre
     @include media-query($on-laptop)
         padding-right: $spacing-unit / 2
         padding-left: $spacing-unit / 2
+    &.large
+        max-width: $large-content-width
+
+.hero
+    padding: $spacing-unit
+    background-color: $grey-color
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)
+    background-blend-mode: normal, lighten, soft-light
+    color: $background-color
+    a
+        color: $anti-brand
+    @include media-query($on-laptop)
+        padding: $spacing-unit / 2
+    &.brand
+        background-color: $brand-color
+        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%)
+    &.dark
+        background-color: $grey-color-dark
+        background-image: linear-gradient(to right, #434343 0%, black 100%)
+    &.light
+        background-color: $grey-color-light
+        background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)
+        color: $grey-color-dark
+        a
+            color: $brand-color
 
 %clearfix 
     &:after 
