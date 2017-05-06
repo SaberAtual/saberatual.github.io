@@ -18,9 +18,18 @@ sass:
 gems:
   - jekyll-coffeescript
 
+collections:
+  cursos:
+    output: true
+
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: cursos
+    values:
+      layout: page
