@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6
     h#{$i}
         font-size: $base-font-size + $base-font-size * 2 * ( 1 / $i )
 
+hr
+    border: none
+    border-bottom: 1px solid $grey-color-light
+
 a 
     color: $brand-color
     text-decoration: none
@@ -63,6 +67,8 @@ blockquote
     color: $grey-color
     border-left: 4px solid $grey-color-light
     padding-left: $spacing-unit / 2
+    padding-top: 1px
+    padding-bottom: 1px
     font-size: 18px
     letter-spacing: -1px
     font-style: italic
@@ -83,6 +89,22 @@ pre
         border: 0
         padding-right: 0
         padding-left: 0
+
+table
+    min-width: 50%
+    margin: auto
+    table-layout: fixed
+    border-collapse: collapse
+    th
+        background-color: $brand-color
+        color: #fff
+    th, td
+        border: 1px solid #fff
+        padding: 5px
+    tr
+        background-color: $background-color
+        &:nth-of-type(even)
+            background-color: $grey-color-light
 
 .wrapper 
     max-width: $content-width
