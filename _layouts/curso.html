@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="page-content curso">
+
+  <header class="post-header wrapper large" data-grid="center spacing row nowrap">
+    <div data-cell="1of4" class="post-pic">{% include svg{{ page.url | remove: '.html' }}.svg %}</div>
+    <h1 data-cell="3of4" class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

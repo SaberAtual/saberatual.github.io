@@ -39,7 +39,7 @@ O curso será composto por: videoaulas inéditas, "Livro Vivo" em PDF, acesso a 
 ### Matemática Financeira
 
 <div data-grid="center spacing" class="wrapper">
-  <div data-cell="1of3">
+  <div data-cell="1of3 order-1">
     <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSN2VdT41li-V_OAcLDiwihJDPGQ6BYwpBdGAhGqFrTLlJ6vFA9">
   </div>
   <div data-cell="2of3">

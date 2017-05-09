@@ -86,6 +86,19 @@
 .page-content 
     padding: $spacing-unit 0
 
+.curso
+    .post-pic
+        width: 80px
+        flex: 80px
+        margin-right: $spacing-unit / 2
+    .post-header
+        position: relative
+        +media-greater($content-width)
+            margin-top: -$spacing-unit * 1.5
+    .post-title
+        +media-query($on-laptop)
+            font-size: 36px
+
 .page-heading 
     font-size: 20px
 

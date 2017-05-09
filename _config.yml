@@ -32,4 +32,4 @@ defaults:
       path: ""
       type: cursos
     values:
-      layout: page
+      layout: curso

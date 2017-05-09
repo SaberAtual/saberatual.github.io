@@ -61,6 +61,9 @@
         +media-greater($on-palm)
             > :not(:last-child)
                 margin-right: $spacing-unit
+            > [data-cell~="order-1"]
+                margin-right: 0
+                margin-left: $spacing-unit
 
         +media-query($on-palm)
             > *
@@ -70,6 +73,9 @@
         +media-greater($on-palm)
             > :not(:last-child)
                 margin-right: $spacing-unit / 4
+            > [data-cell~="order-1"]
+                margin-right: 0
+                margin-left: $spacing-unit / 4
 
         +media-query($on-palm)
             > *
@@ -109,6 +115,11 @@
 
         +variant(stretch)
             align-self: stretch
+        
+        +media-greater($on-palm)
+
+            +variant(order-1)
+                order: 1
 
         +media-query($on-palm)
             margin-left: 0

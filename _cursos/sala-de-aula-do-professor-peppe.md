@@ -1,5 +1,5 @@
 ---
-title: Orientação de Estudos - Sala de aula do professor Peppe
+title: Sala de aula do professor Peppe
 excerpt: >
   Esta categoria tem por finalidade orientar os estudos de geografia dos alunos do Ensino Médio e Cursinho Pré-Vestibular..ENEM, Vestibulares, Concursos Públicos.
 ---

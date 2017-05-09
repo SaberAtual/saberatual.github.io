@@ -24,10 +24,12 @@ layout: default
   </header>
   <div data-grid="spacing" class="wrapper">
     {% for curso in site.cursos %}
+      {% if site.data.destaques.cursos contains curso.id %}
       <article>
         <h3><a href="{{ site.baseurl }}{{ curso.url }}">{{ curso.title }}</a></h3>
         <p>{{ curso.excerpt }} <a href="{{ site.baseurl }}{{ curso.url }}">Leia mais...</a></p>
       </article>
+      {% endif %}
     {% endfor %}
   </div>
   <footer class="wrapper">
