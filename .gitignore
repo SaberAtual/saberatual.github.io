@@ -1,4 +1,6 @@
 _site
+_estude
+.vscode
 .sass-cache
 .jekyll-metadata
 desktop.ini
