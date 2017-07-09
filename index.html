@@ -25,8 +25,8 @@ layout: default
   <div data-grid="spacing" class="wrapper">
     {% for d in site.data.destaques %}
 
-    {% assign cursos = site.cursos | where: 'id', d %}
-    {% assign curso = cursos[0] %}
+    {% assign cursos = site.cursos | where: 'id', d | first %}
+    {% assign curso = cursos %}
 
       <article>
         <h3><a href="{{ site.baseurl }}{{ curso.url }}">{{ curso.title }}</a></h3>
