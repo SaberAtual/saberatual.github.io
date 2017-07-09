@@ -1,4 +1,3 @@
-cursos:
-  - /cursos/educacao-financeira
-  - /cursos/fundamentos-em-astronomia
-  - /cursos/sala-de-aula-do-professor-peppe
+- /cursos/educacao-financeira
+- /cursos/fundamentos-em-astronomia
+- /cursos/sala-de-aula-do-professor-peppe

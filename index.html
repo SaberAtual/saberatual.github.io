@@ -23,13 +23,16 @@ layout: default
     <h2>Cursos disponíveis</h2>
   </header>
   <div data-grid="spacing" class="wrapper">
-    {% for curso in site.cursos %}
-      {% if site.data.destaques.cursos contains curso.id %}
+    {% for d in site.data.destaques %}
+
+    {% assign cursos = site.cursos | where: 'id', d %}
+    {% assign curso = cursos[0] %}
+
       <article>
         <h3><a href="{{ site.baseurl }}{{ curso.url }}">{{ curso.title }}</a></h3>
         <p>{{ curso.excerpt }} <a href="{{ site.baseurl }}{{ curso.url }}">Leia mais...</a></p>
       </article>
-      {% endif %}
+
     {% endfor %}
   </div>
   <footer class="wrapper">
